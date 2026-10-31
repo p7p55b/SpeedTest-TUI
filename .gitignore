@@ -1,0 +1,11 @@
+speedtui
+speedtest-tui
+target/
+*.o
+bin/
+STUDIO_DESIGN_SYSTEM.md
+.DS_Store
+._.DS_Store
+*~
+*.swp
+.fuse_hidden*

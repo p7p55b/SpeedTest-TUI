@@ -1,0 +1,18 @@
+[package]
+name = "speedtui"
+version = "0.2.0"
+edition = "2021"
+authors = ["Foxter"]
+description = "Terminal UI for Ookla Speedtest with 10G analog gauges and real-time Braille graphs"
+
+[[bin]]
+name = "speedtui"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.29"
+ratatui = "0.30"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+libc = "0.2"
